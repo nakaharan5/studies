@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----- Navigation Bar -----*/
+
+.nav-header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.nav-bar ul{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar ul li{
+    list-style: none;
+    margin: 2px;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.nav-bar ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 1px solid black;
+}
+
+/*--- Navigation Bar - Ending of Code ---*/
+
+.banner{
+    width: 100%;
+    height: 200px;
+}
+.background{
+    background-image: url("https://i1.wp.com/seonkyounglongest.com/wp-content/uploads/2019/07/Yakiniku-03.jpg?fit=1300%2C867&ssl=1");
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+
+.background h1{
+    padding: 80px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
