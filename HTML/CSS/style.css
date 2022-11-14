@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /*----- Navigation Bar -----*/
 
 .nav-header{
@@ -45,18 +50,3 @@
     height: 200px;
 }
 
-.titles{
-    
-    background-image: linear-gradient(to bottom, #000000, #FFF);
-    height: 100%;
-    color: white;
-    text-align: center;
-}
-
-
-.titles h1{
-    padding: 60px;
-    font-size: 50px;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
-}
