@@ -7,12 +7,18 @@ header.cabecalho{
     margin-top: 50px;
     text-align: center;
 }
-
-form {
+div.formulario{
     margin: 20px 100px 0px 100px;
+}
+form {
+    margin: 10px;
     border: 1px solid black;
 }
 
 form .opcao{
     padding: 10px;
+}
+
+.butao {
+    margin: 10px;
 }

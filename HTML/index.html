@@ -13,41 +13,44 @@
         <p>Preencha seus dados no formulário abaixo</p>
     </header>
 
-    <form>
-        <div class="opcao">
-            <label for="nome">Digite o seu nome: </label>
-            <input type="text" name="nome" id="nome">    
-        </div>
+    <div class="formulario">
+        <!--Formulário para inserção de dados-->
+        <form>
+            <div class="opcao">
+                <label for="nome">Digite o seu nome: </label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="opcao">
+                <label for="data_de_n">Data de nascimento: </label>
+                <input type="date" name="data_de_n" id="dataNasci">
+            </div>
+            <div class="opcao">
+                <label for="cpf">Digite seu CPF: </label>
+                <input type="text" name="cpf" id="cpf">
+            </div>
+            <div class="opcao">
+                <label for="rg">Digite seu RG: </label>
+                <input type="text" name="rg" id="rg">
+            </div>
+        </form>
+        <!--Formulário de anexo para foto-->
+        <form>
+            <div class="opcao">
+                <label for="foto">Anexe sua foto: </label>
+                <input type="file" name="foto" id="foto">
+            </div>
+        </form>
+        <!--Formulário de matrícula-->
+        <form>
+            <div class="opcao">
+                <label for="matricula">Anexe sua certidão de vínculo: </label>
+                <input type="file" name="matricula" id="matricula">
+            </div>
+        </form>
 
-        <div class="opcao">
-            <label for="data_de_n">Data de nascimento: </label>
-            <input type="date" name="data_de_n" id="dataNasci">
-        </div>
+        <input type="button" value="SUBMIT" class="butao">
+        <input type="button" value="RESET" class="butao">
+    </div>
 
-        <div class="opcao">
-            <label for="cpf">Digite seu CPF: </label>
-            <input type="text" name="cpf" id="cpf">
-        </div>
-
-        <div class="opcao">
-            <label for="rg">Digite seu RG: </label>
-            <input type="text" name="rg" id="rg">
-        </div>
-
-    </form>
-
-    <form>
-        <div class="opcao">
-            <label for="foto">Anexe sua foto: </label>
-            <input type="file" name="foto" id="foto">
-        </div>
-    </form>
-    
-    <form>
-        <div class="opcao">
-            <label for="matricula">Anexe sua certidão de vínculo: </label>
-            <input type="file" name="matricula" id="matricula">
-        </div>
-    </form>
 </body>
 </html>
