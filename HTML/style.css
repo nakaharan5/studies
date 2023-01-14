@@ -33,12 +33,19 @@ form {
 form .opcao{
     padding: 10px;
 }
-
+/*Botões que servirão para enviar e submeter*/
 .butao {
     margin: 10px;
     background-color: rgb(255, 255, 255);
     padding: 2px;
+    border: 1px solid black;
 }
+
+.butao:hover{
+    background-color:  rgb(159, 200, 36);
+    border: 2px solid black;
+}
+/*FIM - Botões que servirão para enviar e submeter*/
 
 
 
