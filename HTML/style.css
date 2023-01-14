@@ -27,6 +27,7 @@ div.formulario{
 form {
     margin: 10px;
     border: 1px solid black;
+    text-align: center;
 }
 
 form .opcao{
@@ -35,6 +36,8 @@ form .opcao{
 
 .butao {
     margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
 }
 
 
