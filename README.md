@@ -1,2 +1,3 @@
-# FIRST-SITE
- This is my first project. The idea was remake a restaurant site.
+# Student card form
+ This is my first project. 
+ Client will write your datas and scholar informations. 
