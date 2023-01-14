@@ -1,14 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Setando cor princippal*/
+body{
+    background-color: rgb(159, 200, 36);
 }
 
 header.cabecalho{
     margin-top: 50px;
     text-align: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/*Essa é a div principal do formulário, tudo que for alterado em todo o formulário tem que ser aqui*/
 div.formulario{
+    padding: 10px;
     margin: 20px 100px 0px 100px;
+    background-color: rgb(255, 255, 255);
 }
 form {
     margin: 10px;
@@ -22,3 +36,6 @@ form .opcao{
 .butao {
     margin: 10px;
 }
+
+
+
