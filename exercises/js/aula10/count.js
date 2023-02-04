@@ -2,13 +2,15 @@
  * Operadores aritméticos e laços de repetição
  */
 
-let contador = 0;
+let valor1 = 0;
+let valor2 = 20;
+let i=0; //Contador
 
-while(contador<10){
-    contador++;
-    console.log(contador);
-}
+while(i<20){
+    if(valor1 < valor2){
+        valor1++;
+        i++;
+        console.log(valor1);
+    } 
 
-if(contador=10){
-    console.log('ok');
 }
